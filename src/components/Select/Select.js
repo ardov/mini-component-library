@@ -20,8 +20,9 @@ const Select = ({ label, value, onChange, children }) => {
 };
 
 const Wrapper = styled.div`
-  display: inline-block;
+  display: block;
   position: relative;
+  width: max-content;
   border-radius: 8px;
   padding: 12px 52px 12px 16px;
   color: ${COLORS.gray700};
